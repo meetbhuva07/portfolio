@@ -1,8 +1,6 @@
-import Navbar from "@/components/navbar";
 import React from "react";
-import Footer from "@/components/Footer";
 import Image from "next/image";
-import {   FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { Mail } from "lucide-react";
 
 const page = () => {
@@ -71,7 +69,6 @@ const page = () => {
   ];
   return (
     <div>
-      <Navbar />
       {/* Hero Section */}
 
       <section className="bg-[#1f242d] text-white flex flex-col md:flex-row items-center justify-between px-6 sm:px-10 md:px-20 py-12 md:py-10 relative gap-10">
@@ -376,7 +373,6 @@ const page = () => {
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   );
 };
