@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import Aboutpage from "./About-page";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -30,7 +31,7 @@ export default function Navbar() {
             <span className="text-[#C778DD]">#</span> Works
           </a>
 
-          <a href="#about" className="hover:text-white transition">
+          <a href={<Aboutpage/>} className="hover:text-white transition">
             <span className="text-[#C778DD]">#</span> About Me
           </a>
 
