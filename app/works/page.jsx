@@ -92,14 +92,14 @@ export default function Projects() {
         <span className="text-[#C778DD]">#</span>complete-apps
       </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6 mb-12 px-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6 mb-12 ">
         {projects.map((item, i) => (
           <div
             key={i}
             className="border border-white bg-[#282C33] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_8px_#C778DD]"
           >
             {/* Image */}
-            <div className="relative w-full aspect-[16/10] border-b border-white">
+            <div className="relative w-full aspect-16/10 border-b border-white">
               <Image
                 src={item.img}
                 alt={item.title}
@@ -145,7 +145,7 @@ export default function Projects() {
         <span className="text-[#C778DD]">#</span>small-projects
       </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6 px-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6 ">
         {smallProjects.map((item, i) => (
           <div
             key={i}
