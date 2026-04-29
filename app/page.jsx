@@ -130,7 +130,7 @@ const page = () => {
           {projects.map((item, index) => (
             <div
               key={index}
-              className="border border-gray-500 bg-[#282C33] hover:-translate-y-1 transition"
+              className="border border-gray-500 bg-[#282C33] hover:-translate-y-1 transition  hover:shadow-[0_0_6px_#C778DD]"
             >
               {/* Image */}
               <div className="relative w-full h-44 border-b border-gray-500">
