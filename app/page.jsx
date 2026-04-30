@@ -293,7 +293,7 @@ const page = () => {
           </div>
 
           {/* Left Content */}
-          <div className="relative order-2 md:order-1 text-center md:text-left">
+          <div className="relative order-2 md:order-1 text-justify md:text-justify max-w-xl">
             {/* Left Gray Box */}
             <div className="hidden lg:block absolute -left-24 top-14 w-14 h-28 border border-gray-500"></div>
 
@@ -312,7 +312,6 @@ const page = () => {
               technologies and continuously improving my skills to create better
               digital experiences.
             </p>
-
             <button className="border border-[#C778DD] px-5 py-3 hover:bg-[#C778DD] transition">
               Read more →
             </button>
@@ -378,3 +377,4 @@ const page = () => {
 };
 
 export default page;
+
