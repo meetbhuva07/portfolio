@@ -297,7 +297,7 @@ const page = () => {
             {/* Left Gray Box */}
             <div className="hidden lg:block absolute -left-24 top-14 w-14 h-28 border border-gray-500"></div>
 
-            <p className="text-gray-300 text-sm sm:text-base leading-8 mb-8">
+            <p className="text-gray-400 text-sm sm:text-base leading-8 mb-8">
               Hello, I’m Meet!
               <br />
               <br />
