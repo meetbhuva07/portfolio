@@ -104,7 +104,7 @@ export default function Navbar() {
         {/* Social Icons */}
         <div className="fixed bottom-6 flex gap-4 text-gray-300">
           <a
-            href="https://github.com/"
+            href="https://github.com/meetbhuva07"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -112,14 +112,14 @@ export default function Navbar() {
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/meet-bhuva-4b1220329?utm_source=share_via&utm_content=profile&utm_medium=member_android"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin className="w-5 h-5 hover:text-[#C778DD] transition" />
           </a>
 
-          <a href="mailto:your@email.com">
+          <a href="mailto:meetbhuva0009@gmail.com">
             <FaEnvelope className="w-5 h-5 hover:text-[#C778DD] transition" />
           </a>
         </div>

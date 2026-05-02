@@ -22,7 +22,12 @@ export default function Footer() {
               <span>Meet Bhuva</span>
             </div>
             <span className="text-gray-500 font-normal">
-              meet.bhuva@gmail.com
+              <a
+                href="mailto:meetbhuva0009@gmail.com"
+                className="w-5 h-5 hover:text-[#C778DD] transition"
+              >
+                meetbhuva0009@gmail.com
+              </a>
             </span>
           </div>
 
@@ -34,15 +39,18 @@ export default function Footer() {
           <h3 className="text-white pb-4 text-center">Media</h3>
 
           <div className="flex justify-center gap-4 text-gray-300">
-            <a href="#">
+            <a href="https://github.com/meetbhuva07" target="_blank">
               <FaGithub className="w-5 h-5 hover:text-[#C778DD] transition" />
             </a>
 
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/meet-bhuva-4b1220329?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              target="_blank"
+            >
               <FaLinkedin className="w-5 h-5 hover:text-[#C778DD] transition" />
             </a>
 
-            <a href="#">
+            <a href="mailto:meetbhuva0009@gmail.com">
               <FaEnvelope className="w-5 h-5 hover:text-[#C778DD] transition" />
             </a>
           </div>

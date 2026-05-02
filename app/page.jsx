@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Mail } from "lucide-react";
+import Link from "next/link";
+
 
 const page = () => {
   // project data
@@ -83,9 +85,9 @@ const page = () => {
             He crafts responsive websites where technologies meet creativity
           </p>
 
-          <button className="mt-6 border border-[#C778DD] px-5 py-2 hover:bg-[#C778DD] transition">
-            Contact me !!
-          </button>
+         <button className="mt-6 border border-[#C778DD] px-5 py-2 hover:bg-[#473a54] transition">
+  <Link href="/contact">Contact me !!</Link>
+</button>
         </div>
 
         {/* RIGHT IMAGE */}
@@ -117,12 +119,12 @@ const page = () => {
 
             <div className="h-[1.3px] bg-[#C778DD] flex-1 max-w-50 sm:max-w-87.5 md:max-w-92.5 lg:max-w-145 xl:max-w-155"></div>
           </div>
-          <a
-            href="#"
+          <Link
+            href="/works"
             className="hidden md:block text-sm text-gray-300 hover:text-white"
           >
             View all ~~&gt;
-          </a>
+          </Link>
         </div>
 
         {/* Cards */}
@@ -154,7 +156,7 @@ const page = () => {
                 <p className="text-gray-400 mb-5 text-sm">{item.desc}</p>
 
                 <div className="flex gap-3 flex-wrap">
-                  <button className="border border-[#C778DD] px-4 py-2 hover:bg-[#C778DD] transition">
+                  <button className="border border-[#C778DD] px-4 py-2 hover:bg-[#473a54] transition">
                     {item.btn1}
                   </button>
 
@@ -312,8 +314,9 @@ const page = () => {
               technologies and continuously improving my skills to create better
               digital experiences.
             </p>
-            <button className="border border-[#C778DD] px-5 py-3 hover:bg-[#C778DD] transition">
-              Read more →
+            <button className="border border-[#C778DD] px-5 py-3 hover:bg-[#473a54] transition">
+              <Link href="/aboutpage"> Read more →</Link>
+              
             </button>
           </div>
         </div>
@@ -344,17 +347,18 @@ const page = () => {
 
           {/* RIGHT SIDE CARD */}
           <div className="border border-gray-400 p-5 w-full max-w-xs rounded-lg lg:mr-20">
-            <h3 className="mb-4 font-bold text-white text-center">
-              Message me here
+            <h3 className="mb-4 font-bold text-white">  
+              Message me here :
             </h3>
 
             {/* LinkedIn */}
-            <div className="flex justify-center mb-3">
+            <div className="flex pl-5.5  mb-3">
               <a
-                href="#"
-                className="flex items-center gap-2 text-sm hover:text-purple-400 transition"
+                href="https://www.linkedin.com/in/meet-bhuva-4b1220329?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                target="_blank"
+                className="flex   gap-2 text-sm hover:text-purple-400 transition"
               >
-                <FaLinkedinIn size={22} />
+                <FaLinkedinIn size={22}  />
                 <span>meet-bhuva</span>
               </a>
             </div>
@@ -362,11 +366,11 @@ const page = () => {
             {/* Email */}
             <div className="flex justify-center">
               <a
-                href="mailto:xyz@gmail.com"
+                href="mailto:meetbhuva0009@gmail.com"
                 className="flex items-center gap-2 text-sm hover:text-purple-400 transition"
               >
                 <Mail size={22} />
-                <span>xyz@gmail.com</span>
+                <span>meetbhuva0009@gmail.com</span>
               </a>
             </div>
           </div>
