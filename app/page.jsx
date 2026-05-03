@@ -173,9 +173,9 @@ const page = () => {
 
         {/* Mobile View All */}
         <div className="mt-8 md:hidden text-center">
-          <a href="#" className="text-sm text-gray-300 hover:text-white">
+          <Link href="/works" className="text-sm text-gray-300 hover:text-white">
             View all ~~&gt;
-          </a>
+          </Link>
         </div>
       </section>
 
