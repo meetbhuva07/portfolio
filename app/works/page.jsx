@@ -125,7 +125,7 @@ export default function Projects() {
 
               <div className="flex gap-2 flex-wrap">
                 {item.live && (
-                  <button className="border border-[#C778DD] text-[11px] px-3 py-1.5 hover:bg-[#C778DD] transition">
+                  <button className="border border-[#C778DD] text-[11px] px-3 py-1.5 hover:bg-[#473a54] transition">
                     Live &lt;~&gt;
                   </button>
                 )}
@@ -164,7 +164,7 @@ export default function Projects() {
                 {item.desc}
               </p>
 
-              <button className="border border-[#C778DD] text-[11px] px-3 py-1.5 hover:bg-[#C778DD] transition">
+              <button className="border border-[#C778DD] text-[11px] px-3 py-1.5 hover:bg-[#473a54] transition">
                 Live &lt;~&gt;
               </button>
             </div>

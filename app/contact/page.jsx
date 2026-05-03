@@ -6,7 +6,6 @@ const ContactPage = () => {
   return (
     <div>
       <section className="bg-[#1f242d] text-gray-300 py-20 px-6 md:px-16 relative overflow-hidden">
-        
         {/* ✅ Dotted Design (Hidden on Mobile) */}
         <div className="hidden sm:grid absolute left-3 top-1/2 -translate-y-1/2 grid-cols-3 gap-2 opacity-20">
           {[...Array(12)].map((_, i) => (
@@ -15,10 +14,8 @@ const ContactPage = () => {
         </div>
 
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
-          
           {/* LEFT SIDE */}
           <div className="max-w-md  md:text-left">
-            
             <h2 className="text-2xl sm:text-4xl font-semibold mt-10 mb-3">
               <span className="text-[#C778DD]">/ </span>contacts
             </h2>
@@ -35,17 +32,15 @@ const ContactPage = () => {
           </div>
 
           {/* RIGHT SIDE CARD */}
-          <div className="border border-gray-400 p-5 w-full max-w-xs rounded-lg md:mr-10 hover:border-[#C778DD] transition duration-300">
-            
-            <h3 className="mb-4 font-bold text-white text-center">
-              Message me here
-            </h3>
+          <div className="border border-gray-400 p-5 w-full max-w-xs rounded-lg lg:mr-20">
+            <h3 className="mb-4 font-bold text-white">Message me here :</h3>
 
             {/* LinkedIn */}
-            <div className="flex justify-center mb-3">
+            <div className="flex pl-5.5  mb-3">
               <a
-                href="#"
-                className="flex items-center gap-2 text-sm hover:text-[#C778DD] transition"
+                href="https://www.linkedin.com/in/meet-bhuva-4b1220329?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                target="_blank"
+                className="flex   gap-2 text-sm hover:text-purple-400 transition"
               >
                 <FaLinkedinIn size={22} />
                 <span>meet-bhuva</span>
@@ -55,14 +50,13 @@ const ContactPage = () => {
             {/* Email */}
             <div className="flex justify-center">
               <a
-                href="mailto:xyz@gmail.com"
-                className="flex items-center gap-2 text-sm hover:text-[#C778DD] transition"
+                href="mailto:meetbhuva0009@gmail.com"
+                className="flex items-center gap-2 text-sm hover:text-purple-400 transition"
               >
                 <Mail size={22} />
-                <span>xyz@gmail.com</span>
+                <span>meetbhuva0009@gmail.com</span>
               </a>
             </div>
-
           </div>
         </div>
       </section>
